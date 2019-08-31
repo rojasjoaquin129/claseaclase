@@ -24,7 +24,5 @@ int resultado=0;
  printf("el resultado es %d",resultado);
 }
 int suma (int *numeroUno,int *numeroDos){
-	int auxiliar;
-	auxiliar=*numeroUno+*numeroDos;
-	return auxiliar;
+	return *numeroUno+*numeroDos;
 }
